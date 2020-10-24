@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Login1 {
+
+	public static void main(String[] args) {
+	   //회원가입 로직을 만들어보자//
+		Scanner sc1 = new Scanner(System.in);
+	   Account a1 =new Account();
+	   Logging l1 = new Logging();
+		System.out.println("1.회원가입 2.로그인");
+		int select = sc1.nextInt();
+		if(select==1) {
+			a1.BuildAccount();
+		}else if(select==2) {
+			
+		}   
+	}
+}
